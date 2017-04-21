@@ -4,8 +4,8 @@
 using Microsoft.Azure.Management.Compute.Fluent;
 using Microsoft.Azure.Management.Compute.Fluent.Models;
 using Microsoft.Azure.Management.Fluent;
-using Microsoft.Azure.Management.Resource.Fluent;
-using Microsoft.Azure.Management.Resource.Fluent.Core;
+using Microsoft.Azure.Management.ResourceManager.Fluent;
+using Microsoft.Azure.Management.ResourceManager.Fluent.Core;
 using Microsoft.Azure.Management.Samples.Common;
 using System;
 
@@ -38,8 +38,8 @@ namespace ConvertVirtualMachineToManagedDisks
                         .WithRegion(region)
                         .WithNewResourceGroup(rgName)
                         .WithNewPrimaryNetwork("10.0.0.0/28")
-                        .WithPrimaryPrivateIpAddressDynamic()
-                        .WithoutPrimaryPublicIpAddress()
+                        .WithPrimaryPrivateIPAddressDynamic()
+                        .WithoutPrimaryPublicIPAddress()
                         .WithPopularLinuxImage(KnownLinuxVirtualMachineImage.UbuntuServer16_04_Lts)
                         .WithRootUsername(userName)
                         .WithRootPassword(password)
@@ -105,7 +105,7 @@ namespace ConvertVirtualMachineToManagedDisks
 
                 var azure = Azure
                     .Configure()
-                    .WithLogLevel(HttpLoggingDelegatingHandler.Level.BASIC)
+                    .WithLogLevel(HttpLoggingDelegatingHandler.Level.Basic)
                     .Authenticate(credentials)
                     .WithDefaultSubscription();
 
