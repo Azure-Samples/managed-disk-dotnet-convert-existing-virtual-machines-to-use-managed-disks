@@ -4,7 +4,7 @@ platforms: .Net
 author: anuchandy
 ---
 
-#Getting Started with Managed - Convert Virtual Machine To Managed Disks - in .Net #
+# Getting Started with Managed - Convert Virtual Machine To Managed Disks - in .Net #
 
           Azure Compute sample for managing virtual machines -
             - Create a virtual machine with un-managed OS and data disks
