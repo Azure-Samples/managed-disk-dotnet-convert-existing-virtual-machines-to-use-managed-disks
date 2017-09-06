@@ -1,4 +1,0 @@
-C:\Sources\dotnet-samples\managed-disk-dotnet-convert-existing-virtual-machines-to-use-managed-disks\bin\Debug\net452\ConvertVirtualMachineToManagedDisks.runtimeconfig.json
-C:\Sources\dotnet-samples\managed-disk-dotnet-convert-existing-virtual-machines-to-use-managed-disks\bin\Debug\net452\ConvertVirtualMachineToManagedDisks.runtimeconfig.dev.json
-C:\Sources\dotnet-samples\managed-disk-dotnet-convert-existing-virtual-machines-to-use-managed-disks\obj\Debug\net452\ConvertVirtualMachineToManagedDisks.csproj.ConvertVirtualMachineToManagedDisks.exe.config
-C:\Sources\dotnet-samples\managed-disk-dotnet-convert-existing-virtual-machines-to-use-managed-disks\obj\Debug\net452\ConvertVirtualMachineToManagedDisks.csproj.CoreCompileInputs.cache
