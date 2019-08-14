@@ -1,7 +1,9 @@
 ---
 page_type: sample
-languages: java
-products: azure
+languages:
+- java
+products:
+- azure
 services: Compute
 platforms: dotnet
 author: yaohaizh
@@ -24,9 +26,9 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
     git clone https://github.com/Azure-Samples/managed-disk-dotnet-convert-existing-virtual-machines-to-use-managed-disks.git
 
     cd managed-disk-dotnet-convert-existing-virtual-machines-to-use-managed-disks
-  
+
     dotnet build
-    
+
     bin\Debug\net452\ConvertVirtualMachineToManagedDisks.exe
 
 ## More information ##
