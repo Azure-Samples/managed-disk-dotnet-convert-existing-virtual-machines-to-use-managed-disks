@@ -4,17 +4,17 @@ languages:
 - csharp
 products:
 - azure
-services: Compute
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Compute
+- platforms: dotnet
 ---
 
 # Getting started with converting Virtual Machines to use Managed Disks #
 
-          Azure Compute sample for managing virtual machines -
-            - Create a virtual machine with un-managed OS and data disks
-            - Deallocate the virtual machine
-            - Migrate the virtual machine to use managed disk.
+ Azure Compute sample for managing virtual machines -
+   - Create a virtual machine with un-managed OS and data disks
+   - Deallocate the virtual machine
+   - Migrate the virtual machine to use managed disk.
 
 
 ## Running this Sample ##
